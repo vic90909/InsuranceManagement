@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ProiectModelStoreContainer" CdmEntityContainer="ProiectEntities">
+    <EntitySetMapping Name="AsigurareAlteBunuris">
+      <EntityTypeMapping TypeName="ProiectModel.AsigurareAlteBunuri">
+        <MappingFragment StoreEntitySet="AsigurareAlteBunuri">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="denumireBun" ColumnName="denumireBun" />
+          <ScalarProperty Name="numeAsigurator" ColumnName="numeAsigurator" />
+          <ScalarProperty Name="locatieBun" ColumnName="locatieBun" />
+          <ScalarProperty Name="sumaAsigurare" ColumnName="sumaAsigurare" />
+          <ScalarProperty Name="dataPolitaInceput" ColumnName="dataPolitaInceput" />
+          <ScalarProperty Name="dataPolitaSfarsit" ColumnName="dataPolitaSfarsit" />
+          <ScalarProperty Name="tipAsiguare" ColumnName="tipAsiguare" />
+          <ScalarProperty Name="Detalii" ColumnName="Detalii" />
+          <ScalarProperty Name="IdClient" ColumnName="IdClient" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Clientis">
+      <EntityTypeMapping TypeName="ProiectModel.Clienti">
+        <MappingFragment StoreEntitySet="Clienti">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Nume" ColumnName="Nume" />
+          <ScalarProperty Name="Prenume" ColumnName="Prenume" />
+          <ScalarProperty Name="CNP" ColumnName="CNP" />
+          <ScalarProperty Name="Telefon" ColumnName="Telefon" />
+          <ScalarProperty Name="SerieBuletin" ColumnName="SerieBuletin" />
+          <ScalarProperty Name="DataNasterii" ColumnName="DataNasterii" />
+          <ScalarProperty Name="Adresa" ColumnName="Adresa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

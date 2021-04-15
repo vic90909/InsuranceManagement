@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProiectModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AsigurareAlteBunuri">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="denumireBun" Type="nvarchar" MaxLength="255" />
+    <Property Name="numeAsigurator" Type="nvarchar" MaxLength="255" />
+    <Property Name="locatieBun" Type="nvarchar" MaxLength="255" />
+    <Property Name="sumaAsigurare" Type="float" />
+    <Property Name="dataPolitaInceput" Type="nvarchar" MaxLength="50" />
+    <Property Name="dataPolitaSfarsit" Type="nvarchar" MaxLength="50" />
+    <Property Name="tipAsiguare" Type="nvarchar" MaxLength="50" />
+    <Property Name="Detalii" Type="nvarchar" MaxLength="50" />
+    <Property Name="IdClient" Type="int" />
+  </EntityType>
+  <EntityType Name="Clienti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nume" Type="nchar" MaxLength="50" />
+    <Property Name="Prenume" Type="nchar" MaxLength="10" />
+    <Property Name="CNP" Type="int" />
+    <Property Name="Telefon" Type="nchar" MaxLength="50" />
+    <Property Name="SerieBuletin" Type="nchar" MaxLength="50" />
+    <Property Name="DataNasterii" Type="nchar" MaxLength="50" />
+    <Property Name="Adresa" Type="nchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_AsigurareAlteBunuri_ToTable">
+    <End Role="Clienti" Type="Self.Clienti" Multiplicity="0..1" />
+    <End Role="AsigurareAlteBunuri" Type="Self.AsigurareAlteBunuri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clienti">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AsigurareAlteBunuri">
+        <PropertyRef Name="IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProiectModelStoreContainer">
+    <EntitySet Name="AsigurareAlteBunuri" EntityType="Self.AsigurareAlteBunuri" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clienti" EntityType="Self.Clienti" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_AsigurareAlteBunuri_ToTable" Association="Self.FK_AsigurareAlteBunuri_ToTable">
+      <End Role="Clienti" EntitySet="Clienti" />
+      <End Role="AsigurareAlteBunuri" EntitySet="AsigurareAlteBunuri" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

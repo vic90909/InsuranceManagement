@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ProiectModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AsigurareAlteBunuri">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="denumireBun" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="numeAsigurator" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="locatieBun" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="sumaAsigurare" Type="Double" />
+    <Property Name="dataPolitaInceput" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="dataPolitaSfarsit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tipAsiguare" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Detalii" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdClient" Type="Int32" />
+    <NavigationProperty Name="Clienti" Relationship="Self.FK_AsigurareAlteBunuri_ToTable" FromRole="AsigurareAlteBunuri" ToRole="Clienti" />
+  </EntityType>
+  <EntityType Name="Clienti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nume" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Prenume" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="CNP" Type="Int32" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="SerieBuletin" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="DataNasterii" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <Property Name="Adresa" Type="String" MaxLength="50" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="AsigurareAlteBunuris" Relationship="Self.FK_AsigurareAlteBunuri_ToTable" FromRole="Clienti" ToRole="AsigurareAlteBunuri" />
+  </EntityType>
+  <Association Name="FK_AsigurareAlteBunuri_ToTable">
+    <End Role="Clienti" Type="Self.Clienti" Multiplicity="0..1" />
+    <End Role="AsigurareAlteBunuri" Type="Self.AsigurareAlteBunuri" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clienti">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="AsigurareAlteBunuri">
+        <PropertyRef Name="IdClient" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ProiectEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AsigurareAlteBunuris" EntityType="Self.AsigurareAlteBunuri" />
+    <EntitySet Name="Clientis" EntityType="Self.Clienti" />
+    <AssociationSet Name="FK_AsigurareAlteBunuri_ToTable" Association="Self.FK_AsigurareAlteBunuri_ToTable">
+      <End Role="Clienti" EntitySet="Clientis" />
+      <End Role="AsigurareAlteBunuri" EntitySet="AsigurareAlteBunuris" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

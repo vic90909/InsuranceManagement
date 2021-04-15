@@ -1,0 +1,39 @@
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.Properties.Resources.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect Asigurari.csproj.GenerateResource.cache
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect Asigurari.csproj.CoreCompileInputs.cache
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\Proiect Asigurari.exe.config
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\Proiect Asigurari.exe
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\Proiect Asigurari.pdb
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect Asigurari.exe
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect Asigurari.pdb
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.ClientiForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.EditareClientiForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.AsigurareForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.EditareAsigurareForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.AsigurareAlteBunuriForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.AsigurareViataForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.AsigurareAutomobilForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect Asigurari.csproj.CopyComplete
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.TreeView.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\EntityFramework.dll
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\EntityFramework.xml
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.Pie.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.AsigurariLocuintaForm.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.UserControlClienti.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\UserControlClienti.resx
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\UserControlClienti.cs
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\UserControlClienti.Designer.cs
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.DataGridViewClienti.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\database.db
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\System.Data.SQLite.dll
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\System.Data.SQLite.xml
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect Asigurari.csprojAssemblyReference.cache
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.GraphicControl.resources
+C:\Users\TREX\Desktop\Facultate\Anul 2\Sem2\paw\Proiect Asigurari\Proiect Asigurari\obj\Debug\Proiect_Asigurari.Welcome.resources

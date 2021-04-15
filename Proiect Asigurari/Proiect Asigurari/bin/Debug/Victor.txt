@@ -1,0 +1,19 @@
+Mitoi  |  Victor  |  az  |  0745175007  |  Pitesti  |  1990619035276  |  Monday, May 11, 2020
+{
+Locuinta  |  Locuinta  |  Groupama  |  100  |  Pitesti  |  Monday, May 11, 2020  |  Tuesday, May 11, 2021  |  Pitesti  |  apartament  |  5  |  100  |  88  |  4
+Automobil  |  Automobil  |  Social  |  500  |  Bucuresti  |  Friday, June 19, 2020  |  Wednesday, June 24, 2020  |  Mercedes  |  S500  |  AG99LVA  |  ASSS  |  1996  |  5  |  3000
+Viata  |  Viata  |  Groupama  |  700  |  Sinaia  |  Monday, May 11, 2020  |  Monday, May 11, 2020  |  20  |  0  |  173  |  62  |  Masculin  |  Necasatorit
+AlteBunuri  |  Alte  |  Groupama  |  600  |  Bunuri  |  Monday, May 11, 2020  |  Monday, May 11, 2020  |  Alte detaliii
+}
+Mitoi  |  Victor  |    |    |    |  1990619035275  |  Wednesday, May 13, 2020
+{
+}
+Mitoi  |  Victor  |    |    |    |  1990619035274  |  Wednesday, May 13, 2020
+{
+}
+Mitoi  |  Victor  |    |    |    |  1990619035273  |  Wednesday, May 13, 2020
+{
+}
+Mitoi  |  Victor  |    |    |    |  1990619035272  |  Wednesday, May 13, 2020
+{
+}
